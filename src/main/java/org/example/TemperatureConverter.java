@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class TemperatureConverter {
     public static void main(String[] args) {
-        System.out.println("Welcome to the Temperature Converter!");
-        System.out.println("-------------------------------------");
+        System.out.println("-------------------------------------------------");
+        System.out.println("                                                 ");
+        System.out.println("      Welcome to the Temperature Converter!      ");
+        System.out.println("                                                 ");
+        System.out.println("-------------------------------------------------");
         double temperatureValue = Create.getTemperatureValue();
         int conversionChoice = Create.getConversionChoice();
         double convertedValue;
